@@ -39,7 +39,7 @@ function getWelcomeResponse(callback) {
     // If we wanted to initialize the session to have some attributes we could add those here.
     const sessionAttributes = {};
     const cardTitle = 'Welcome';
-    const speechOutput = 'Tell Zen to turn the stereo on or off. ';
+    const speechOutput = 'Tell Zen to turn the lights on or off. ';
     // If the user either does not reply to the welcome message or says something that is not
     // understood, they will be prompted again with this text.
     const repromptText = '';
@@ -51,7 +51,7 @@ function getWelcomeResponse(callback) {
 
 function handleSessionEndRequest(callback) {
     const cardTitle = 'Session Ended';
-    const speechOutput = 'Thank you for trying the Alexa Skills Kit sample. Have a nice day!';
+    const speechOutput = 'Thank you for trying the my skill!';
     // Setting this to true ends the session and exits the skill.
     const shouldEndSession = true;
 
