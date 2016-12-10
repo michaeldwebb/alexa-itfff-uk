@@ -1,0 +1,7 @@
+LightsOnIntent lights on
+LightsOnIntent start my lights
+LightsOnIntent turn the lights on
+LightsOffIntent lights off
+LightsOffIntent turn lights off
+LightsOffIntent stop lights
+LightsOffIntent stop the lights
